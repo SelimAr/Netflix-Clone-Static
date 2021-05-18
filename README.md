@@ -1,3 +1,5 @@
+### **Netflix Clone Static**
+![ScreenNetflix](https://user-images.githubusercontent.com/82125128/118723155-5724ca00-b82d-11eb-8a8a-234ab0f0c305.JPG)
 
 In the project directory, you can run:
 
