@@ -1,0 +1,52 @@
+.Banniere {
+    height: 440px;
+    position: relative;
+    color: #FFF;
+    object-fit: contain;
+}
+.Banniere_content {
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px;
+}
+.Banniere_title {
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 5px;
+}
+.Banniere_description {
+    height: 80px;
+    max-width: 360px;
+    font-size: 15px;
+    padding-top: 16px;
+    width: 720px;
+    line-height: 1.3;
+}
+.Banniere_btns {
+    margin-top: 10px;
+    display: flex;
+}
+.Banniere_btn {
+    cursor: pointer;
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 2px;
+    margin-right: 16px;
+    padding-right: 32px;
+    padding-left: 22px;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgba(51, 51, 51, 0.51);
+    display: flex;
+    align-items: center;
+}
+.Banniere_btn:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+.Banniere_bottom {
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+    height: 118px;
+}

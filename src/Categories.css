@@ -1,0 +1,23 @@
+.categories {
+    color: #FFF;
+    margin-left: 20px;
+}
+.categories_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.categories_posters::-webkit-scrollbar {
+    display: none;
+}
+.categories_poster {
+    max-height: 110px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.categories_poster:hover {
+    transform: scale(1.2);
+}
